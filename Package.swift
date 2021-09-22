@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "XCTLeafKit", targets: ["XCTLeafKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.20.2"),
+        .package(url: "https://github.com/apple/swift-nio.git", from: "2.32.2"),
     ],
     targets: [
         .target(name: "LeafKit", dependencies: [
